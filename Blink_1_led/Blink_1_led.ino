@@ -1,4 +1,8 @@
 /*
+This code was modified by Lambert Zhang in accordance with an ECE 1895 Assignment's instructions.
+*/
+
+/*
   Blink
 
   Turns an LED on for one second, then off for one second, repeatedly.
@@ -25,8 +29,8 @@
 // the setup function runs once when you press reset or power the board
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
-  pinMode(8, INPUT);
-  pinMode(A5, OUTPUT);
+  pinMode(8, INPUT); //this pin senses for a button press, which pulls the pin value up to high
+  pinMode(A5, OUTPUT); //this pin provides power to an LED
 }
 
 // the loop function runs over and over again forever
