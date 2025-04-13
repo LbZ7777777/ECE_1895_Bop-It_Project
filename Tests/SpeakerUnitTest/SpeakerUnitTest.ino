@@ -19,5 +19,3 @@ void loop() {
     playSound(jumpSound, sizeof(jumpSound));
     delay(1000);
 }
-
-

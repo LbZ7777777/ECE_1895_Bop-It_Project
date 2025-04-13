@@ -3,7 +3,7 @@
 
 #include <Arduino.h>
 
-#define CS_DAC 10  // Define Chip Select pin for MCP4921 DAC
+#define CS_DAC 10
 
 void playSound(const uint8_t *sound, uint16_t length);
 
